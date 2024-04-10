@@ -119,7 +119,7 @@ const ServiceItem = ({
         return bookingHour === timeHour && bookingMinutes === timeMinutes;
       });
       if (!booking) {
-        return true;	
+        return true;
       }
       return false;
     });
